@@ -72,11 +72,15 @@ const Posts = () => {
               {firstImage ? (
                 <>
                   <DotSVGActive />
-                  <DotSVG onClick={() => setFirstImage(false)} />
+                  <div onClick={() => setFirstImage(false)}>
+                    <DotSVG />
+                  </div>
                 </>
               ) : (
                 <>
-                  <DotSVG onClick={() => setFirstImage(true)} />
+                  <div onClick={() => setFirstImage(true)}>
+                    <DotSVG />
+                  </div>
                   <DotSVGActive />
                 </>
               )}

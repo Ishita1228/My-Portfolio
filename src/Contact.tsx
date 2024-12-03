@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => {
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
     console.log(message);
   };
