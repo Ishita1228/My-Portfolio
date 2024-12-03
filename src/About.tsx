@@ -345,9 +345,9 @@ export const About = () => {
                 version='1.1'
                 id='Layer_1'
                 xmlns='http://www.w3.org/2000/svg'
-                xmlns:xlink='http://www.w3.org/1999/xlink'
+                xmlnsXlink='http://www.w3.org/1999/xlink'
                 viewBox='0 0 330 330'
-                xml:space='preserve'
+                xmlSpace='preserve'
               >
                 <path
                   id='XMLID_225_'
@@ -382,9 +382,9 @@ export const About = () => {
                 version='1.1'
                 id='Layer_1'
                 xmlns='http://www.w3.org/2000/svg'
-                xmlns:xlink='http://www.w3.org/1999/xlink'
+                xmlnsXlink='http://www.w3.org/1999/xlink'
                 viewBox='0 0 330 330'
-                xml:space='preserve'
+                xmlSpace='preserve'
               >
                 <path
                   id='XMLID_225_'
@@ -419,9 +419,9 @@ export const About = () => {
                 version='1.1'
                 id='Layer_1'
                 xmlns='http://www.w3.org/2000/svg'
-                xmlns:xlink='http://www.w3.org/1999/xlink'
+                xmlnsXlink='http://www.w3.org/1999/xlink'
                 viewBox='0 0 330 330'
-                xml:space='preserve'
+                xmlSpace='preserve'
               >
                 <path
                   id='XMLID_225_'
@@ -467,9 +467,9 @@ export const About = () => {
                     version='1.1'
                     id='Layer_1'
                     xmlns='http://www.w3.org/2000/svg'
-                    xmlns:xlink='http://www.w3.org/1999/xlink'
+                    xmlnsXlink='http://www.w3.org/1999/xlink'
                     viewBox='0 0 330 330'
-                    xml:space='preserve'
+                    xmlSpace='preserve'
                   >
                     <path
                       id='XMLID_225_'
@@ -504,9 +504,9 @@ export const About = () => {
                     version='1.1'
                     id='Layer_1'
                     xmlns='http://www.w3.org/2000/svg'
-                    xmlns:xlink='http://www.w3.org/1999/xlink'
+                    xmlnsXlink='http://www.w3.org/1999/xlink'
                     viewBox='0 0 330 330'
-                    xml:space='preserve'
+                    xmlSpace='preserve'
                   >
                     <path
                       id='XMLID_225_'
@@ -541,9 +541,9 @@ export const About = () => {
                     version='1.1'
                     id='Layer_1'
                     xmlns='http://www.w3.org/2000/svg'
-                    xmlns:xlink='http://www.w3.org/1999/xlink'
+                    xmlnsXlink='http://www.w3.org/1999/xlink'
                     viewBox='0 0 330 330'
-                    xml:space='preserve'
+                    xmlSpace='preserve'
                   >
                     <path
                       id='XMLID_225_'
