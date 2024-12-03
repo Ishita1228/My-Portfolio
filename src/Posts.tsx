@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import DotSVG from './DotSVG';
 import DotSVGActive from './DotSVGActive';
 import SaveSVG from './SaveSVG';

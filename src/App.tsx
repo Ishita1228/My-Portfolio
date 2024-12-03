@@ -5,7 +5,7 @@ import { FirstPage } from './FirstPage';
 import { Navbar } from './Navbar';
 import { Work } from './Work';
 import { Blog1 } from './Blog1';
-import { Contact } from './Contact';
+import Contact from './Contact';
 import { About } from './About';
 import Posts from './Posts';
 

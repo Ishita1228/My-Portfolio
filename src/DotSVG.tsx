@@ -1,5 +1,3 @@
-import React from 'react';
-
 const DotSVG = () => {
   return (
     <div style={{ cursor: 'pointer', opacity: '50%' }}>

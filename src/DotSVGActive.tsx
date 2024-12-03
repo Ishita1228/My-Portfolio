@@ -1,5 +1,3 @@
-import React from 'react';
-
 const DotSVGActive = () => {
   return (
     <div style={{ cursor: 'pointer' }}>

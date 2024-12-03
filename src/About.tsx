@@ -296,7 +296,7 @@ export const About = () => {
         </div>
       </div>
       {/* Third Section */}
-      <div style={{ minheight: '100vh', background: '#eaeae9' }}>
+      <div style={{ minHeight: '100vh', background: '#eaeae9' }}>
         {/* What I Offer */}
         <div
           style={{
