@@ -11,6 +11,7 @@ import Posts from './Posts';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Blog2 } from './Blog2';
+import { Blog3 } from './Blog3';
 
 function App() {
   return (
@@ -62,6 +63,15 @@ function App() {
             <div>
               <Navbar />
               <Blog2 />
+            </div>
+          }
+        ></Route>
+        <Route
+          path='/blog3'
+          element={
+            <div>
+              <Navbar />
+              <Blog3 />
             </div>
           }
         ></Route>
