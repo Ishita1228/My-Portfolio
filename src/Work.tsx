@@ -1,4 +1,10 @@
 import work from '../public/work.jpeg';
+import work1 from '../public/work1.jpg';
+import work2 from '../public/work2.jpg';
+import work3 from '../public/work3.jpg';
+import work4 from '../public/work4.jpg';
+import work5 from '../public/work5.jpg';
+import work6 from '../public/work6.jpg';
 
 export const Work = () => {
   return (
@@ -66,7 +72,7 @@ export const Work = () => {
                     width: '80%',
                     height: '80%',
                     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
-                    backgroundImage: `url(${work})`,
+                    backgroundImage: `url(${work1})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
@@ -111,7 +117,7 @@ export const Work = () => {
                     width: '80%',
                     height: '80%',
                     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
-                    backgroundImage: `url(${work})`,
+                    backgroundImage: `url(${work2})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
@@ -172,7 +178,7 @@ export const Work = () => {
                     width: '80%',
                     height: '80%',
                     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
-                    backgroundImage: `url(${work})`,
+                    backgroundImage: `url(${work3})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
@@ -218,7 +224,7 @@ export const Work = () => {
                     width: '80%',
                     height: '80%',
                     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
-                    backgroundImage: `url(${work})`,
+                    backgroundImage: `url(${work4})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
@@ -272,7 +278,7 @@ export const Work = () => {
                     width: '80%',
                     height: '80%',
                     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
-                    backgroundImage: `url(${work})`,
+                    backgroundImage: `url(${work5})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
@@ -318,7 +324,7 @@ export const Work = () => {
                     width: '80%',
                     height: '80%',
                     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
-                    backgroundImage: `url(${work})`,
+                    backgroundImage: `url(${work6})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
