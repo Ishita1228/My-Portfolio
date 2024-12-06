@@ -166,7 +166,7 @@ export const Blog = () => {
                     textAlign: 'center',
                   }}
                 >
-                  Behind the Scenes: Crafting a User-Friendly Portfolio
+                  Making of "Wake Up Your Best" for Bellarom Instant Coffee
                 </div>
                 <div
                   style={{

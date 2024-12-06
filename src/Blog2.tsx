@@ -1,112 +1,65 @@
-import photo2 from '../public/aestheticphoto.jfif';
+import styles from './Blog2.module.css';
+import photo1 from '../public/blog2image1.jpg';
+import photo2 from '../public/blog2image2.jpg';
 
 export const Blog2 = () => {
-  return (
-    <div
-      style={{
-        height: '110vh',
-        width: '100%',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <div
-        style={{
-          width: '100%',
-          height: '80%',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        <div
-          style={{
-            height: '100%',
-            width: '25%',
-            display: 'flex',
-            backgroundImage: `url(${photo2})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        ></div>
-        <div
-          style={{
-            height: '100%',
-            width: '65%',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}
-        >
-          <div style={{ width: '80%' }}>
-            <b style={{ fontSize: '26px' }}>The Aesthetic Shot</b>
-            <br />
-            <br />
-            <div style={{ fontSize: '16px' }}>
-              <ul>
-                <li>Model Canon EOS 1300D</li>
-                <li>ISO 308</li>
-                <li>ShutterSpeedValue 1/99</li>
-                <li>Aperture 5.6</li>
-                <li>CanonFlashMode Off</li>
-                <li>FocusMode One-shot AF</li>
-                <li>LensType Canon EF-S 55-250mm f/4-5.6 IS II</li>
-                <li>Lens 55.0 - 250.0mm</li>
-                <li>ShootingMode Landscape</li>
-              </ul>
+    return (
+        <div className={styles.container}>
+            <h1 className={styles.title}>Behind the Scenes: Making of ‘Wake Up Your Best’ for Bellarom Instant Coffee</h1>
+            <div className={styles.section}>
+                <p className={styles.text}>
+                    While heading in to direct and write the product demo video of Bellarom Instant Coffee, my aim was to
+                    touch the hearts of students and night owls by making them know that coffee is not just a beverage
+                    but a person’s best friend during untold stresses and interminable harvests. As such, I gained
+                    first-hand experience of the pressure and time emphasis required to come up with a decent
+                    advertisement for a product or company at a professional level.
+                </p>
             </div>
-            <div>
-              Stereotyping is almost inevitable when talking about the role of
-              mothers. In this instance, I am no different. The photograph
-              depicts my idea of beauty and my love for the surrounding
-              greenery. Surrounded by a garden of grinning pink flowers, I
-              donned a designer dress with a big rose in my hair. In my opinion,
-              this picture is gentle, warm, and dreamy.
+            <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>Concept Development</h2>
+                <p className={styles.text}>
+                    A significant and powerful source of inspiration for the creation of "Wake Up Your Best" was the
+                    advertising Nescafé Gold – Make Your World. This ad had the right proportions of emotions and
+                    motivation, which are the core points in my understanding about the aims of Bellarom in motivating
+                    people to work harder.
+                </p>
             </div>
-            <div>
-              <ol>
-                <li>
-                  <b>Color Harmony:</b> It is worth noting that the color scheme
-                  here was purposely matched. The pink rose in my hair blends
-                  quite well with the background giving a rich sensibility to
-                  the subject which is me and my environment. Considering all
-                  this, don’t be surprised that I wore a dress with pastel and
-                  earthy tones.
-                </li>
-                <li>
-                  <b>Background Choice & Depth:</b> The origin of the theme and
-                  a large number of pink flowers support the image with the
-                  healthy sense of textures and layers. The bright image of a
-                  pink blooming rose on the green leaves of the vine can be
-                  beautiful and awe-inspiring as was the case with me. This
-                  technique produces a soft layered dream-like quality to the
-                  image.
-                </li>
-                <li>
-                  <b>Natural Lighting:</b> This photo was taken outside with
-                  natural light in the late afternoon. The sunlight was very
-                  soft and well diffused as it didn’t create shadows and it
-                  added a romantic softness to the picture. Instead, I looked
-                  for a gentle light where I could avoid direct sunlight, which
-                  is often too harsh and creates both highlights and shadows.
-                  frame.
-                </li>
-                <li>
-                  <b>Personal Reflection:</b> I think this shot of mine
-                  represents my literature as it is a place for me to relax as
-                  well as get inspired. The place is quite admirably done which
-                  also speaks to my love for nature and my interest in
-                  designing. Every piece of the puzzle was designed with care,
-                  from the colors and the elements to the place itself, so that
-                  the image would be calm and meek in all of its aspects.
-                </li>
-              </ol>
+            <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>My Contribution</h2>
+                <ul className={styles.list}>
+                    <li className={styles.listItem}>Crafting the Script</li>
+                    <li className={styles.listItem}>Guiding the Visual Style</li>
+                    <li className={styles.listItem}>Editing the Final Cut</li>
+                </ul>
             </div>
-          </div>
+            <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>Production Process and Challenges</h2>
+                <p className={styles.text}>
+                    <strong>Pre-Production:</strong> We started with a detailed script and storyboard. It was important
+                    to align the visual flow with the brand’s identity and ensure all the essential elements were
+                    included—like the graphical overlay and brand logo at the end.
+                </p>
+                <p className={styles.text}>
+                    <strong>Filming Challenges:</strong> Capturing the late-night atmosphere was tricky. We used warm
+                    desk lamp lighting to create a cozy yet focused environment, balancing it with the surrounding
+                    dimness. Maintaining the steam rising from the coffee mug for the close-up shots was surprisingly
+                    harder than expected!
+                </p>
+                <p className={styles.text}>
+                    <strong>Post-Production:</strong> Editing was where everything truly came together. The 124-second
+                    film required meticulous trimming to balance pacing and emotional impact.
+                </p>
+            </div>
+            <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>Final Reflections</h2>
+                <p className={styles.text}>
+                    This project pushed me to think creatively under constraints while honing my technical and
+                    storytelling skills. Bellarom Instant Coffee became more than just a product; it was a symbol of
+                    resilience, creativity, and drive.
+                </p>
+            </div>
+            <img src={photo1} alt="Behind the Scenes 1" className={styles.image} />
+            <img src={photo2} alt="Behind the Scenes 2" className={styles.image} />
         </div>
-      </div>
-    </div>
-  );
+    );
 };
