@@ -1,4 +1,3 @@
-import work from '../public/work.jpeg';
 import work1 from '../public/work1.jpg';
 import work2 from '../public/work2.jpg';
 import work3 from '../public/work3.jpg';
