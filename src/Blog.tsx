@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import photo1 from '../public/middlesectionphoto.jpeg';
+import blog2cover from '../public/blog2cover.jpg';
+import blog3cover from '../public/blog3cover.png'
 
 export const Blog = () => {
   const [hoverColor, setHoverColor] = useState('white');
@@ -141,7 +143,7 @@ export const Blog = () => {
                   style={{
                     width: '80%',
                     height: '80%',
-                    backgroundImage: `url(${photo1})`,
+                    backgroundImage: `url(${blog2cover})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}
@@ -215,7 +217,7 @@ export const Blog = () => {
                   style={{
                     width: '80%',
                     height: '80%',
-                    backgroundImage: `url(${photo1})`,
+                    backgroundImage: `url(${blog3cover})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                   }}

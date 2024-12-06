@@ -1,0 +1,209 @@
+/* Main Container */
+.firstpage-container {
+    background-color: #eaeae9;
+  }
+  
+  /* Navigation Section */
+  .nav-section {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+  }
+  
+  .nav-section .brand {
+    font-size: 60px;
+    font-weight: bold;
+    width: 85%;
+    text-align: center;
+  }
+  
+  /* Middle Section */
+  .middle-section {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .middle-section .content {
+    display: flex;
+    width: 85%;
+    height: 100%;
+  }
+  
+  .left-column,
+  .right-column {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .center-column {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-column .name {
+    font-size: 40px;
+  }
+  
+  .left-column .role {
+    font-size: 20px;
+    color: #bd8f53;
+  }
+  
+  .left-column .cv-button {
+    width: 225px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .left-column .cv-button:hover {
+    background-color: #5c908a;
+  }
+  
+  .right-column .link-button {
+    width: 225px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .right-column .link-button:hover {
+    background-color: #5c908a;
+  }
+  
+  /* Last Section */
+  .last-section {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .last-section .content {
+    width: 85%;
+    text-align: center;
+  }
+  
+  .last-section .intro-text {
+    font-size: 22px;
+    color: #bd8f53;
+  }
+  
+  .last-section .body-text {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  /* Tablet */
+  @media (max-width: 1024px) {
+    .nav-section .brand {
+      font-size: 50px;
+    }
+  
+    .middle-section .content {
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      width: 100%;
+      height: auto;
+    }
+  
+    .center-column {
+      width: 80%;
+      margin-top: 20px;
+    }
+  
+    .left-column .name {
+      font-size: 30px;
+    }
+  
+    .left-column .role {
+      font-size: 18px;
+    }
+  
+    .left-column .cv-button,
+    .right-column .link-button {
+      width: 200px;
+      height: 45px;
+      font-size: 14px;
+    }
+  
+    .last-section .intro-text {
+      font-size: 20px;
+    }
+  
+    .last-section .body-text {
+      font-size: 15px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 600px) {
+    .nav-section .brand {
+      font-size: 40px;
+    }
+  
+    .middle-section .content {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .left-column, .right-column {
+      width: 100%;
+      height: auto;
+    }
+  
+    .center-column {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .left-column .name {
+      font-size: 24px;
+    }
+  
+    .left-column .role {
+      font-size: 16px;
+    }
+  
+    .left-column .cv-button,
+    .right-column .link-button {
+      width: 180px;
+      height: 40px;
+      font-size: 12px;
+    }
+  
+    .last-section .intro-text {
+      font-size: 18px;
+    }
+  
+    .last-section .body-text {
+      font-size: 13px;
+    }
+  }
+  
