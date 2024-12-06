@@ -14,6 +14,18 @@
     text-align: center;
 }
 
+.video {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+    background-color: #f4f4f4; 
+}
+
+
 .section {
     margin-bottom: 24px;
 }

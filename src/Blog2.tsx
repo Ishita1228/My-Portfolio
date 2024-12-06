@@ -1,11 +1,16 @@
 import styles from './Blog2.module.css';
+import coffeevideo from '../public/coffeevideo.mp4'
+import photo0 from '../public/blog2image0.jpg'
 import photo1 from '../public/blog2image1.jpg';
 import photo2 from '../public/blog2image2.jpg';
+import photo3 from '../public/blog2image3.jpg';
+import photo4 from '../public/blog2image4.jpg';
 
 export const Blog2 = () => {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>Behind the Scenes: Making of ‘Wake Up Your Best’ for Bellarom Instant Coffee</h1>
+            <video className={styles.video} src={coffeevideo} controls></video>
             <div className={styles.section}>
                 <p className={styles.text}>
                     While heading in to direct and write the product demo video of Bellarom Instant Coffee, my aim was to
@@ -58,8 +63,11 @@ export const Blog2 = () => {
                     resilience, creativity, and drive.
                 </p>
             </div>
+            <img src={photo0} alt="Behind the Scenes 1" className={styles.image} />
             <img src={photo1} alt="Behind the Scenes 1" className={styles.image} />
             <img src={photo2} alt="Behind the Scenes 2" className={styles.image} />
+            <img src={photo3} alt="Behind the Scenes 2" className={styles.image} />
+            <img src={photo4} alt="Behind the Scenes 2" className={styles.image} />
         </div>
     );
 };

@@ -181,7 +181,7 @@ export const Blog = () => {
                   Here's a glimpse at how I balance creativity, accessibility,
                   and storytelling in my process. Come along with me as I share
                   the decisions, obstacles, and triumphs that influenced my
-                  website!
+                  video!
                 </div>
               </div>
             </Link>
