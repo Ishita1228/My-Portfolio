@@ -26,6 +26,9 @@ export const Navbar = () => {
           <Link to='/posts' className='navbar-link'>
             <div>Posts</div>
           </Link>
+          <Link to='/gallery' className='navbar-link'>
+            <div>Gallery</div>
+          </Link>
         </div>
       </div>
     </div>

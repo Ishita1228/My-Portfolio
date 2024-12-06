@@ -11,7 +11,7 @@ export const FirstPage = () => {
   const buttonStyle = (isHovered: boolean) => ({
     fontSize: '16px',
     width: '225px',
-    height: '50px',
+    height: '40px',
     boxShadow: '5px 5px 10px rgba(0, 0, 0, 1)',
     background: isHovered ? '#5c908a' : 'white',
     transition: 'background-color 0.3s ease',
@@ -93,7 +93,7 @@ export const FirstPage = () => {
 
           {/* Right Column */}
           <div style={{ width: '25%', height: '100%' }}>
-            {['About', 'Work', 'Blog', 'Posts', 'Contact'].map((label) => (
+            {['About', 'Work', 'Blog', 'Posts', 'Contact', 'Gallery'].map((label) => (
               <div
                 key={label}
                 style={{

@@ -8,6 +8,7 @@ import { Blog1 } from './Blog1';
 import Contact from './Contact';
 import { About } from './About';
 import Posts from './Posts';
+import Gallery from './Gallery';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Blog2 } from './Blog2';
@@ -99,6 +100,15 @@ function App() {
             <div>
               <Navbar />
               <Posts />
+            </div>
+          }
+        ></Route>
+         <Route
+          path='/gallery'
+          element={
+            <div>
+              <Navbar />
+              <Gallery />
             </div>
           }
         ></Route>
